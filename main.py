@@ -16,4 +16,3 @@ with smtplib.SMTP("smtp.gmail.com", 587) as connection:
     connection.starttls()
     connection.login(user=MY_EMAIL, password=MY_PASSWORD)
     connection.sendmail(from_addr=MY_EMAIL, to_addrs=TO_EMAIL, msg=f"Subject:Quote to start the week!\n\n{quote}")
-
