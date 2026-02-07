@@ -23,7 +23,7 @@ jobs:
 
       - name: Run main.py
         env:
-          MY_EMAIL: ${{ secrets.TY_PYTHON_GMAIL_EM }}
-          MY_PASSWORD: ${{ secrets.TY_PYTHON_GMAIL_PAS }}
-          TO_EMAIL: ${{ secrets.TR_BD_YR_GM_EM }}
+          MY_EMAIL: ${{ secrets.ty_python_gmail_em }}
+          MY_PASSWORD: ${{ secrets.ty_python_gmail_pas }}
+          TO_EMAIL: ${{ secrets.tr_bd_yr_gm_em }}
         run: python main.py
